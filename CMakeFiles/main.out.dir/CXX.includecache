@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/OperatingSystem/binary.cpp
+iostream
+-
+binary.h
+/mnt/OperatingSystem/binary.h
+fstream
+-
+stdlib.h
+-
+pthread.h
+-
+
+/mnt/OperatingSystem/binary.h
+
+/mnt/OperatingSystem/main.cpp
+iostream
+-
+binary.h
+/mnt/OperatingSystem/binary.h
+string
+-
+sstream
+-
+fstream
+-
+csignal
+-
+unistd.h
+-
+

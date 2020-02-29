@@ -1,0 +1,181 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /mnt/OperatingSystem/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b7b66/fast"
+make: Warning: File 'Makefile' has modification time 159893 s in the future
+/usr/bin/make -f CMakeFiles/cmTC_b7b66.dir/build.make CMakeFiles/cmTC_b7b66.dir/build
+make[1]: Entering directory '/mnt/OperatingSystem/CMakeFiles/CMakeTmp'
+make[1]: Warning: File 'CMakeFiles/cmTC_b7b66.dir/flags.make' has modification time 159893 s in the future
+Building C object CMakeFiles/cmTC_b7b66.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b7b66.dir/CheckSymbolExists.c.o   -c /mnt/OperatingSystem/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_b7b66
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7b66.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b7b66.dir/CheckSymbolExists.c.o  -o cmTC_b7b66 
+CMakeFiles/cmTC_b7b66.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_b7b66.dir/build.make:97: recipe for target 'cmTC_b7b66' failed
+make[1]: *** [cmTC_b7b66] Error 1
+make[1]: Leaving directory '/mnt/OperatingSystem/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b7b66/fast' failed
+make: *** [cmTC_b7b66/fast] Error 2
+
+File /mnt/OperatingSystem/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /mnt/OperatingSystem/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1376a/fast"
+make: Warning: File 'Makefile' has modification time 159893 s in the future
+/usr/bin/make -f CMakeFiles/cmTC_1376a.dir/build.make CMakeFiles/cmTC_1376a.dir/build
+make[1]: Entering directory '/mnt/OperatingSystem/CMakeFiles/CMakeTmp'
+make[1]: Warning: File 'CMakeFiles/cmTC_1376a.dir/flags.make' has modification time 159893 s in the future
+Building C object CMakeFiles/cmTC_1376a.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1376a.dir/CheckSymbolExists.c.o   -c /mnt/OperatingSystem/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1376a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1376a.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_1376a.dir/CheckSymbolExists.c.o  -o cmTC_1376a 
+CMakeFiles/cmTC_1376a.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_1376a.dir/build.make:97: recipe for target 'cmTC_1376a' failed
+make[1]: *** [cmTC_1376a] Error 1
+make[1]: Leaving directory '/mnt/OperatingSystem/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1376a/fast' failed
+make: *** [cmTC_1376a/fast] Error 2
+
+File /mnt/OperatingSystem/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /mnt/OperatingSystem/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2aaba/fast"
+make: Warning: File 'Makefile' has modification time 159893 s in the future
+/usr/bin/make -f CMakeFiles/cmTC_2aaba.dir/build.make CMakeFiles/cmTC_2aaba.dir/build
+make[1]: Entering directory '/mnt/OperatingSystem/CMakeFiles/CMakeTmp'
+make[1]: Warning: File 'CMakeFiles/cmTC_2aaba.dir/flags.make' has modification time 159893 s in the future
+Building C object CMakeFiles/cmTC_2aaba.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2aaba.dir/CheckSymbolExists.c.o   -c /mnt/OperatingSystem/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_2aaba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2aaba.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_2aaba.dir/CheckSymbolExists.c.o  -o cmTC_2aaba 
+CMakeFiles/cmTC_2aaba.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_2aaba.dir/build.make:97: recipe for target 'cmTC_2aaba' failed
+make[1]: *** [cmTC_2aaba] Error 1
+make[1]: Leaving directory '/mnt/OperatingSystem/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2aaba/fast' failed
+make: *** [cmTC_2aaba/fast] Error 2
+
+File /mnt/OperatingSystem/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /mnt/OperatingSystem/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_68411/fast"
+/usr/bin/make -f CMakeFiles/cmTC_68411.dir/build.make CMakeFiles/cmTC_68411.dir/build
+make[1]: Entering directory '/mnt/OperatingSystem/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_68411.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_68411.dir/CheckSymbolExists.c.o   -c /mnt/OperatingSystem/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_68411
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68411.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_68411.dir/CheckSymbolExists.c.o  -o cmTC_68411 
+CMakeFiles/cmTC_68411.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_68411.dir/build.make:97: recipe for target 'cmTC_68411' failed
+make[1]: *** [cmTC_68411] Error 1
+make[1]: Leaving directory '/mnt/OperatingSystem/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_68411/fast' failed
+make: *** [cmTC_68411/fast] Error 2
+
+File /mnt/OperatingSystem/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /mnt/OperatingSystem/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d31a7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d31a7.dir/build.make CMakeFiles/cmTC_d31a7.dir/build
+make[1]: Entering directory '/mnt/OperatingSystem/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d31a7.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d31a7.dir/CheckSymbolExists.c.o   -c /mnt/OperatingSystem/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d31a7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d31a7.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d31a7.dir/CheckSymbolExists.c.o  -o cmTC_d31a7 
+CMakeFiles/cmTC_d31a7.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_d31a7.dir/build.make:97: recipe for target 'cmTC_d31a7' failed
+make[1]: *** [cmTC_d31a7] Error 1
+make[1]: Leaving directory '/mnt/OperatingSystem/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d31a7/fast' failed
+make: *** [cmTC_d31a7/fast] Error 2
+
+File /mnt/OperatingSystem/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

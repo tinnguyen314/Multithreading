@@ -1,0 +1,3 @@
+/mnt/OperatingSystem/CMakeFiles/rebuild_cache.dir
+/mnt/OperatingSystem/CMakeFiles/main.out.dir
+/mnt/OperatingSystem/CMakeFiles/edit_cache.dir
